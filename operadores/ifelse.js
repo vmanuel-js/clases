@@ -52,3 +52,15 @@ const canJpDrinkBeer = canPersonDrinkBeer(jpAge);
 
 displayBeerMesageIfElse('Manuel', canManuelDrinkBeer);
 displayBeerMesageTernary('Jp', canJpDrinkBeer);
+
+// const edadParaVerLaPelicula = 14;
+// const edadDeManuel = 17;
+// const edadDeTita = 5;
+
+// function edadPermitida (edadPersona, nombre) {
+//   const resultadoDeEdad = edadPersona >= edadParaVerLaPelicula
+//   resultadoDeEdad ? console.log(nombre + ':' + 'entra') : console.log(nombre + ':' + 'no entra')
+// }
+
+// const edadParaQueManuelEntre = edadPermitida(edadDeManuel, 'Manuel');
+// const edadParaQueTitaEntre = edadPermitida(edadDeTita, 'Tita');
